@@ -5,16 +5,16 @@ int main(void) {
 	scanf("%d",&s);
 	if (s>0)
 	{
-		printf("\n positive");
+		printf("\n Positive");
 	
 	}
 	else if (s<0)
 	{
-		printf("\n negative");
+		printf("\n Negative");
 	}
 	else
 	{
-		printf("\n zero");
+		printf("\n Zero");
 	}
 	
 	return 0;
