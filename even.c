@@ -3,7 +3,11 @@
 int main(void) {
 	int e;
 	scanf("%d",&e);
-	if(e%2==0)
+	if(e<0)
+	{
+		printf("invalid");
+	}
+	else if(e%2==0)
 	{
 		printf("Even");
 	}
@@ -11,5 +15,6 @@ int main(void) {
 	{
 		printf("Odd");
 	}
+	
 	return 0;
 }
